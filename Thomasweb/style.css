@@ -1,0 +1,75 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contêiner principal */
+.container {
+    text-align: center;
+}
+
+/* Estilos do conteúdo */
+.content {
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Estilos do título */
+h1 {
+    font-family: 'Instagram', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* Estilos do parágrafo */
+p {
+    font-size: 18px;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+p span {
+    color: #f56040; /* Cor laranja do Instagram */
+}
+
+/* Botão */
+button.open-btn {
+    background-color: #0095f6;
+    color: white;
+    font-size: 16px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button.open-btn:hover {
+    background-color: #007bb5;
+}
+
+/* Estilo para o texto de inscrição */
+.sign-up {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sign-up span {
+    color: #f56040;
+    cursor: pointer;
+}
